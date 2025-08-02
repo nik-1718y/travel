@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hospital Management System</title>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #e3f2fd;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.doctors {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.doctors h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e3f2fd;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #1976d2;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CityCare Hospital</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Doctors</a>
+      <a href="#">Departments</a>
+      <a href="#">Appointments</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>We care for your health</h2>
+    <p>24/7 quality healthcare services</p>
+    <a href="#" class="btn">Book Appointment</a>
+  </section>
+
+  <section class="doctors">
+    <h2>Our Specialist Doctors</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?doctor" alt="Doctor">
+        <h3>Dr. A. Sharma</h3>
+        <p>Cardiologist</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?female-doctor" alt="Doctor">
+        <h3>Dr. R. Mehta</h3>
+        <p>Neurologist</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/300x200/?hospital" alt="Doctor">
+        <h3>Dr. S. Verma</h3>
+        <p>Orthopedic</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 9876543210 &nbsp; | &nbsp; 📧 support@citycare.com</p>
+    <p>🏥 123 Health Street, Lucknow, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CityCare Hospital. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
