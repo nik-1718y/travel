@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume Builder</title>
+  <style>
+    body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #1976d2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d47a1;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Resume Builder Form</h1>
+    <form>
+      <h2>Personal Details</h2>
+      <label>Full Name:</label>
+      <input type="text" placeholder="Enter your name" required />
+
+      <label>Email:</label>
+      <input type="email" placeholder="Enter your email" required />
+
+      <label>Phone:</label>
+      <input type="tel" placeholder="Enter your phone number" required />
+
+      <label>Address:</label>
+      <textarea placeholder="Enter your address" rows="2" required></textarea>
+
+      <h2>Education</h2>
+      <label>School/University:</label>
+      <input type="text" placeholder="Enter school/university" />
+
+      <label>Degree:</label>
+      <input type="text" placeholder="Enter degree" />
+
+      <label>Year of Graduation:</label>
+      <input type="text" placeholder="YYYY" />
+
+      <h2>Experience</h2>
+      <label>Company Name:</label>
+      <input type="text" placeholder="Enter company name" />
+
+      <label>Role:</label>
+      <input type="text" placeholder="Enter job role" />
+
+      <label>Duration:</label>
+      <input type="text" placeholder="e.g. Jan 2023 - Dec 2023" />
+
+      <h2>Skills</h2>
+      <label>List your skills:</label>
+      <textarea placeholder="e.g. HTML, CSS, JavaScript" rows="2"></textarea>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
